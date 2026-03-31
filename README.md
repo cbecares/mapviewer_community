@@ -36,7 +36,7 @@ Steps:
 - run unit tests with Vitest
 - build the application
 
-### 2. Automatic deployment to staging
+### 2. Automatic deployment to staging (test)
 
 File: `.github/workflows/deploy-staging.yml`
 
