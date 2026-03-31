@@ -40,7 +40,7 @@ Steps:
 
 File: `.github/workflows/deploy-staging.yml`
 
-Runs automatically when CI finishes successfully for a push to `main`.
+Runs manually by a user with write access to the rep.
 
 ### 3. Controlled deployment to production
 
