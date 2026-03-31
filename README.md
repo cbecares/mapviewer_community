@@ -1,4 +1,4 @@
-# mapviewer-sample
+# mapviewer community
 
 Minimal example repository with a simple collaboration workflow based on short-lived branches, pull requests, unit tests and controlled deployments.
 
@@ -13,12 +13,11 @@ This repository intentionally avoids GitFlow.
 - Optional release tags: `v1.0.0`, `v1.1.0`, etc. for production deployments.
 
 ### Collaboration rules
-
 1. Create a branch from `main`.
 2. Open a pull request back to `main`.
 3. CI runs unit tests and build validation automatically.
 4. Merge with **Squash and merge** to keep history clean.
-5. Each merge to `main` deploys automatically to **staging**.
+5. Staging deployment is **manual** and protected by GitHub Environment reviewers
 6. Production deployment is **manual** and protected by GitHub Environment reviewers.
 
 ## CI/CD included
@@ -36,7 +35,7 @@ Steps:
 - run unit tests with Vitest
 - build the application
 
-### 2. Manual deployment to staging
+### 2. Automatic deployment to staging (test)
 
 File: `.github/workflows/deploy-staging.yml`
 
