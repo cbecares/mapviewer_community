@@ -23,7 +23,7 @@ This repository intentionally avoids GitFlow.
 
 ## CI/CD included
 
-### 1. Continuous Integration
+### 1. Continuous Integration 
 
 File: `.github/workflows/ci.yml`
 
@@ -50,7 +50,7 @@ Runs only through **manual trigger** (`workflow_dispatch`).
 
 Recommended protection:
 - create a GitHub Environment called `production`
-- configure **Required reviewers** with the users allowed to approve production deployments
+- configure **Required reviewers** with the users allowed to approve production deployment
 - optionally restrict the branch/tag patterns that can deploy
 
 ## Repository protection recommended in GitHub
