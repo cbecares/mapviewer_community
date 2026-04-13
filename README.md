@@ -23,7 +23,7 @@ This repository intentionally avoids GitFlow.
 
 ## CI/CD included
 
-### 1. Continuous Integration
+### 1. Continuous Integratio
 
 File: `.github/workflows/ci.yml`
 
