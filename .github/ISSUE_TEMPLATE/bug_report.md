@@ -1,7 +1,8 @@
----
+\---
+
 name: 🐞 Bug Report
 about: Report a bug or unexpected behavior
-title: "[BUG] "
+title: ""
 labels: bug
 assignees: ''
 ---
@@ -9,27 +10,32 @@ assignees: ''
 ## 🐞 Bug Report
 
 ### Summary
+
 Provide a short and clear description of the issue.
 
 ### Environment
-- Environment:
-- Browser:
-- Version:
+
+* Environment:
+* Browser:
+* Version:
 
 ### Steps to Reproduce
-1.
-2.
-3.
+
+1. 
+2. 
+3. 
 
 ### Expected Behavior
 
 ### Actual Behavior
 
 ### Impact
-- [ ] Low
-- [ ] Medium
-- [ ] High
+
+* \[ ] Low
+* \[ ] Medium
+* \[ ] High
 
 ### Screenshots / Evidence
 
 ### Additional Information
+
