@@ -37,3 +37,14 @@ button {
   padding: 10px 16px;
   cursor: pointer;
 }
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #f5f5f5;
+  padding: 8px;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+}
