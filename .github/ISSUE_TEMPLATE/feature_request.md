@@ -1,4 +1,4 @@
-\---
+---
 
 name: 🚀 Feature / Improvement
 about: Suggest a new feature or improvement
